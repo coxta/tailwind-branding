@@ -5,6 +5,8 @@
 @layer base {
     :root {
 
+        /* Default EFI Color swatch */
+
         /* Neutral */
         --light: theme('colors.gray.300');
         --muted: theme('colors.gray.400');
@@ -13,20 +15,26 @@
 
         /* Branded */
         --primary: theme('colors.blue.600');
+        --primaryAccent: theme('colors.blue.700');
         --secondary: theme('colors.gray.500');
+        --secondaryAccent: theme('colors.gray.600');
 
         /* Actions */
         --danger: theme('colors.red.600');
+        --danger-accent: theme('colors.red.700');
         --success: theme('colors.green.600');
+        --successAccent: theme('colors.green.700');
         --warning: theme('colors.yellow.600');
+        --warningAccent: theme('colors.yellow.700');
         --info: theme('colors.blue.300');
+        --infoAccent: theme('colors.blue.400');
 
     }
 }
 
 @layer components {
     .btn {
-        @apply py-2 px-4 font-semibold rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-opacity-75;
+        @apply py-1.5 px-2.5 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-opacity-75;
     }
 }
 
@@ -34,13 +42,19 @@
 
     /* Branded */
     --primary: theme('colors.purple.800');
+    --primaryAccent: theme('colors.purple.900');
     --secondary: theme('colors.green.800');
+    --secondaryAccent: theme('colors.green.900');
 
     /* Actions */
     --danger: theme('colors.red.800');
+    --dangerAccent: theme('colors.red.900');
     --success: theme('colors.blue.800');
+    --successAccent: theme('colors.blue.900');
     --warning: theme('colors.yellow.800');
+    --warningAccent: theme('colors.yellow.900');
     --info: theme('colors.indigo.800');
+    --infoAccent: theme('colors.indigo.900');
 
 }
 
@@ -48,13 +62,19 @@
 
     /* Branded */
     --primary: theme('colors.purple.600');
+    --primaryAccent: theme('colors.purple.700');
     --secondary: theme('colors.green.500');
+    --secondaryAccent: theme('colors.green.600');
 
     /* Actions */
     --danger: theme('colors.amber.600');
+    --dangerAccent: theme('colors.amber.700');
     --success: theme('colors.blue.200');
+    --successAccent: theme('colors.blue.300');
     --warning: theme('colors.yellow.400');
+    --warningAccent: theme('colors.yellow.500');
     --info: theme('colors.indigo.800');
+    --infoAccent: theme('colors.indigo.900');
 
 }
 
@@ -68,12 +88,18 @@
 
     /* Branded */
     --primary: theme('colors.red.400');
+    --primary: theme('colors.red.400');
+    --secondary: theme('colors.red.500');
     --secondary: theme('colors.red.500');
 
     /* Actions */
     --danger: theme('colors.red.700');
+    --dangerAccent: theme('colors.red.800');
     --success: theme('colors.red.600');
+    --successAccent: theme('colors.red.700');
     --warning: theme('colors.red.800');
+    --warningAccent: theme('colors.red.900');
     --info: theme('colors.red.900');
+    --infoAccent: theme('colors.red.800');
 
 }

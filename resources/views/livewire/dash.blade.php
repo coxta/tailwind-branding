@@ -25,6 +25,11 @@
 
             <h2 class="text-primary text-xl mb-4 brand-default">Default Branding</h2>
 
+            <div class="flex items-center space-x-4 mb-2">
+                <button class="btn text-white bg-primary hover:bg-primary-accent">Primary</button>
+                <button class="btn text-white bg-secondary hover:bg-secondary-accent">Secondary</button>
+            </div>
+
             <div class="text-light">Text Light</div>
             <div class="text-muted">Text Muted</div>
             <div class="text-base">Text Base</div>
@@ -52,7 +57,10 @@
                 </select>
             </div>
 
-            {{ $brand }}
+            <div class="flex items-center space-x-4 mb-2">
+                <button class="btn text-white bg-primary hover:bg-primary-accent">Primary</button>
+                <button class="btn text-white bg-secondary hover:bg-secondary-accent">Secondary</button>
+            </div>
 
             <div class="text-light">Text Light</div>
             <div class="text-muted">Text Muted</div>
