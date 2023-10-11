@@ -30,6 +30,8 @@
                 <button class="btn text-white bg-secondary hover:bg-secondary-accent">Secondary</button>
             </div>
 
+            <div class="text-fugg">Text Fugg</div>
+
             <div class="text-light">Text Light</div>
             <div class="text-muted">Text Muted</div>
             <div class="text-base">Text Base</div>

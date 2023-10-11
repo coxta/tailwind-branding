@@ -5,6 +5,8 @@
 @layer base {
     :root {
 
+        --fugg: theme('colors.lime.400');
+
         /* Default EFI Color swatch */
 
         /* Neutral */

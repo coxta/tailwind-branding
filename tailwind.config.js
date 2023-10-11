@@ -11,7 +11,7 @@ export default {
 
     theme: {
         extend: {
-            textColor: {
+            colors: {
                 light: 'var(--light)',
                 muted: 'var(--muted)',
                 base: 'var(--base)',
@@ -28,24 +28,7 @@ export default {
                 'warning-accent': 'var(--warningAccent)',
                 info: 'var(--info)',
                 'info-accent': 'var(--infoAccent)',
-            },
-            backgroundColor: {
-                light: 'var(--light)',
-                muted: 'var(--muted)',
-                base: 'var(--base)',
-                dark: 'var(--dark)',
-                primary: 'var(--primary)',
-                'primary-accent': 'var(--primaryAccent)',
-                secondary: 'var(--secondary)',
-                'secondary-accent': 'var(--secondaryAccent)',
-                danger: 'var(--danger)',
-                'danger-accent': 'var(--dangerAccent)',
-                success: 'var(--success)',
-                'success-accent': 'var(--successAccent)',
-                warning: 'var(--warning)',
-                'warning-accent': 'var(--warningAccent)',
-                info: 'var(--info)',
-                'info-accent': 'var(--infoAccent)',
+                fugg: 'var(--fugg)',
             },
         },
     },
