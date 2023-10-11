@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+
+        /* Neutral */
+        --light: theme('colors.gray.300');
+        --muted: theme('colors.gray.400');
+        --base: theme('colors.gray.600');
+        --dark: theme('colors.gray.900');
+
+        /* Branded */
+        --primary: theme('colors.blue.600');
+        --secondary: theme('colors.gray.500');
+
+        /* Actions */
+        --danger: theme('colors.red.600');
+        --success: theme('colors.green.600');
+        --warning: theme('colors.yellow.600');
+        --info: theme('colors.blue.300');
+
+    }
+}
+
+@layer components {
+    .btn {
+        @apply py-2 px-4 font-semibold rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-opacity-75;
+    }
+}
+
+.brand-acme {
+
+    /* Branded */
+    --primary: theme('colors.purple.800');
+    --secondary: theme('colors.green.800');
+
+    /* Actions */
+    --danger: theme('colors.red.800');
+    --success: theme('colors.blue.800');
+    --warning: theme('colors.yellow.800');
+    --info: theme('colors.indigo.800');
+
+}
+
+.brand-hub {
+
+    /* Branded */
+    --primary: theme('colors.purple.600');
+    --secondary: theme('colors.green.500');
+
+    /* Actions */
+    --danger: theme('colors.amber.600');
+    --success: theme('colors.blue.200');
+    --warning: theme('colors.yellow.400');
+    --info: theme('colors.indigo.800');
+
+}
+
+.brand-ouch {
+
+    /* Neutral */
+    --light: theme('colors.red.50');
+    --muted: theme('colors.red.100');
+    --base: theme('colors.red.200');
+    --dark: theme('colors.red.300');
+
+    /* Branded */
+    --primary: theme('colors.red.400');
+    --secondary: theme('colors.red.500');
+
+    /* Actions */
+    --danger: theme('colors.red.700');
+    --success: theme('colors.red.600');
+    --warning: theme('colors.red.800');
+    --info: theme('colors.red.900');
+
+}
